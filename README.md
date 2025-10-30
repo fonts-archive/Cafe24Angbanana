@@ -11,11 +11,7 @@
 ### HTML
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.css"
-  type="text/css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.css" type="text/css" />
 ```
 
 ### CSS `@Import`
@@ -32,12 +28,10 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.woff2")
-      format("woff2"), url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.woff")
-      format("woff"),
-    url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.otf")
-      format("opentype"), url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.ttf")
-      format("truetype");
+  src: url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.woff") format("woff"),
+      url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.otf") format("opentype"),
+      url("https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/Cafe24Angbanana.ttf") format("truetype");
 }
 ```
 
@@ -50,11 +44,7 @@
 ### HTML
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/subsets/Cafe24Angbanana-dynamic-subset.css"
-  type="text/css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Angbanana/subsets/Cafe24Angbanana-dynamic-subset.css" type="text/css" />
 ```
 
 ### CSS
@@ -70,8 +60,7 @@
 어느 브라우저나 시스템 환경에서도 동일한 폰트가 적용되어야 한다면 아래와 같이 구성하는 걸 추천합니다. `-apple-system`과 `BlinkMacSystemFont`는 맥, `Segoe UI`는 윈도우, `Roboto`는 안드로이드의 기본 폰트입니다.
 
 ```css
-font-family: "Cafe24 Angbanana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-family: "Cafe24 Angbanana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 ```
 
 &nbsp;
